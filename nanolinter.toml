@@ -8,7 +8,8 @@
 # `nanolinter explain --all` lists more checks.
 #
 # The Prettier check of `just lint-all` (lint-node-format) is not here: the
-# Java lint image has no Node.js, so it would be skipped. Run it locally.
+# Java lint image has no Node.js. The format-xml job of the pull request
+# workflow runs it.
 
 [detect]
 auto = true
